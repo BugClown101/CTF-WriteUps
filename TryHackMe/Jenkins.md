@@ -46,7 +46,7 @@ Since we’re dealing with a Jenkins CMS, we check the version:
 
 - **Jenkins Version**: 2.190.1
 
-There are no public exploits available for this version, so we need to get creative and find a way to execute commands on the target machine to upload a payload.
+There are no public exploits available for this version, so I used ChatGPT to generate a Groovy payload which gave us simple shell which helped us to switch shells for further exploitation.
 
 ## Exploit: Using the Script Console in Jenkins
 
